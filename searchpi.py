@@ -28,7 +28,7 @@ try:
             print(f"\r{color}"+str(z+d), end="")
             if (len(str(z+d)) < len(str(x))):
                 db = ""
-                for i in range(len(str(z))):
+                for i in range(len(str(z+d))):
                     db += str(int(x[b+i]))
                 if(str(int(z)+int(d)) == db):
                     print("\r\033[0m"+str(int(z)+int(d))+" => "+db+" \033[32m are matching numbers")
