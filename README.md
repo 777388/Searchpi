@@ -4,4 +4,4 @@ had to use *10 to allot for the length of the number, eventually it gets too lon
 
 long processing time on chromebook after around 2000
 
-![image](https://github.com/777388/Searchpi/assets/96343159/34981177-ddd7-4d83-82d5-a261cc3a2e41)
+![Screenshot 2024-01-09 3 39 37 AM](https://github.com/777388/Searchpi/assets/96343159/eec92be9-7d3a-427b-91f7-f4c77251edb6)
