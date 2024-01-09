@@ -34,7 +34,15 @@ try:
                     print("\r\033[0m"+str(int(z)+int(d))+" => "+db+" \033[32m are matching numbers")
                 if(str(db) == str(search)):
                     print("\r\033[14m"+str(int(z)+int(d))+" => "+db+" \033[38m is what you were searching for")
-                d += 1
-                b += len(db)
+            level = ""
+            for f in range(len(str(search))):
+                level += str(int(x[b+f]))
+            v = 0
+            if(str(level) == str(search)):
+                for e in str(search):
+                    v += 1
+                print("\r\033[15mIn regular Positioning "+str(d)+" through "+str(d+v)+" => "+level+"\033[39m is what you were searching for")
+            d += 1
+            b += len(db)
 except Exception as e:
     print("\r"+str(e))
