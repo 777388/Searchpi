@@ -4,6 +4,8 @@ had to use *10 to allot for the length of the number, eventually it gets too lon
 
 reverse positioning places 13 at 3.1, regular positioning starts at 1, 2 being 3, 1
 
+extension on reverse positioning gets to the same length, so after 100 you get a 3 digit match, 1000 a 4 digit match, and so on and so forth
+
 long processing time on chromebook after around 2000
 
 ![Screenshot 2024-01-09 3 39 37 AM](https://github.com/777388/Searchpi/assets/96343159/eec92be9-7d3a-427b-91f7-f4c77251edb6)
